@@ -41,7 +41,7 @@ body {
     line-height: 1.19;
 }
 
-.logo-link {
+.accent{
     color: var(--accent-color);
 }
 
