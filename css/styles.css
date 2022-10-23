@@ -7,6 +7,7 @@
     --footer-background-color: #2F303A;
     --black-color: #000000;
     --black-opacity-color: rgba(255, 255, 255, 0.6);
+    --background-active-button: #188CE8;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -27,7 +27,6 @@ body {
 .link {
     text-decoration: none;
     text-transform: none;
-    font-style: normal;
 }
 
 /* logo */
@@ -157,12 +156,14 @@ body {
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button.primary:hover,
 .button.primary:focus {
     color: var(--white-color);
     background-color: var(--background-active-button);
+    
 }
 
 .button.secondary {
@@ -172,6 +173,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
 }
 
 .button.secondary:hover,
@@ -201,6 +203,7 @@ body {
 }
 
 .adress-item {
+    font-style: normal;
     color: var(--black-opacity-color);
 }
 
